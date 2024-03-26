@@ -4,15 +4,14 @@
   box-sizing: border-box;
 }
 
-.full-size {
-  width: 100vw;
-  height: 100vh;
+main {
   background-color: black;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 1700px;
+  padding: 40px 40px 5px;
+  background-color: black;
 }
 
 .row {
@@ -21,8 +20,18 @@
 }
 
 .col14 {
-  background-color: red;
   margin: 5px 2px;
   width: calc(100% / 7 - 4px);
   height: 100px;
+  background-color: brown;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  height: 100px;
+  background-color: rgb(68, 64, 64);
+  width: 100%;
 }
