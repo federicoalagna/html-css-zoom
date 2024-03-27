@@ -47,3 +47,21 @@ footer {
 img {
   width: 100%;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.footer-icons {
+  background-color: blue;
+  width: 200px;
+  height: 75px;
+}
