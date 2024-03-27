@@ -19,15 +19,12 @@ footer {
 
 .main {
   height: calc(100vh - 125px);
-}
-
-.content {
+  overflow-y: auto;
 }
 
 .container {
-  max-width: 1700px;
+  max-width: 1200px;
 
-  background-color: rgb(255, 0, 0);
   margin: 0 auto;
   height: 500px;
 }
@@ -39,15 +36,15 @@ footer {
 
 .col14 {
   width: calc(100% / 7);
-  height: 100px;
-  background-color: rgb(29, 177, 90);
-  border: 1px solid black;
 }
 
-img {
+.content img {
   width: 100%;
 }
 
+.content {
+  margin: 0px 5px 10px 0px;
+}
 .d-flex {
   display: flex;
 }
